@@ -1,0 +1,84 @@
+#freeboard{
+      display:block;
+      border-bottom:5px solid green;
+ }
+ #infoboard:hover{
+    display:block;
+    border-bottom:5px solid green;
+ }
+ #sub-1{
+    height:40px;
+    border-bottom:1px solid black;
+    
+ }
+ .topArea {
+    background-image:url(../../images/common/초원.jpg);
+    width:100%;
+    height:400px;
+ }
+ 
+#tabMenu-list {
+	overflow: hidden;
+	background-color: #f9f9f9;
+	text-align:center;
+	border: 1px solid #ededed;
+	
+}
+
+#tabMenu-list>button {
+	display: inline-block;
+	color: black;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	width: 175px;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#tabMenu-list button:hover {
+	border-bottom: 3px solid #60ea77;
+	color: #40ef5d;
+}
+
+#tabMenu button.active {
+	border-bottom: 3px solid #60ea77;
+
+}
+
+#topText {
+      font-size:125px;
+      margin-top:140px;
+      font-weight:bold;
+      color:#ccc;
+      text-align:center;
+}
+#subText{
+   color:#ccc;
+   text-align:center;
+}
+
+.result-bun{
+	margin-left:auto;
+	margin-right:auto;
+	width: 466px;
+}
+
+.result-main{
+	width:1200px;
+	height:200px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align:center;
+}
+
+.result-title{
+    margin-top: 100px;
+    font-weight: bold;
+    
+}

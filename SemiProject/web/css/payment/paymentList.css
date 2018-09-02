@@ -1,0 +1,228 @@
+#freeboard{
+      display:block;
+      border-bottom:5px solid green;
+ }
+ #infoboard:hover{
+    display:block;
+    border-bottom:5px solid green;
+ }
+ #sub-1{
+    height:40px;
+    border-bottom:1px solid black;
+    
+ }
+ .topArea {
+    background-image:url(../../images/common/초원.jpg);
+    width:100%;
+    height:400px;
+ }
+ 
+#tabMenu-list {
+	overflow: hidden;
+	background-color: #f9f9f9;
+	text-align:center;
+	border: 1px solid #ededed;
+	
+}
+
+#tabMenu-list>button {
+	display: inline-block;
+	color: black;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	width: 175px;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#tabMenu-list button:hover {
+	border-bottom: 3px solid #60ea77;
+	color: #40ef5d;
+}
+
+#tabMenu button.active {
+	border-bottom: 3px solid #60ea77;
+
+}
+
+#topText {
+      font-size:125px;
+      margin-top:140px;
+      font-weight:bold;
+      color:#ccc;
+      text-align:center;
+}
+#subText{
+   color:#ccc;
+   text-align:center;
+}
+
+.all-view{
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	overflow:auto;
+}
+
+.all-view-title{
+	float:left;
+}
+
+.all-view-select{
+	    margin-right: 10px;
+	float:right;
+}
+
+.view-hr{
+	margin-top:10px;
+}
+
+.clear{
+	clear:both; 
+}
+
+.all-view-fund{
+	margin-left:auto;
+	margin-right:auto;
+	width:880px;
+}
+
+
+.detail-btn{
+	margin-left: auto;
+    margin-right: auto;
+    width: 222px;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.fund-money-l{
+	float:left;
+}
+
+.fund-money-r{
+	float:right;
+}
+
+.mode-hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.pay-box{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow : hidden;
+}
+
+.pay-list{
+	margin-right:10px;
+	width:750px;
+	float: left;
+}
+
+.item{
+	width:100%;
+	height:100px;
+	margin-bottom: 10px;
+}
+
+.item-img{
+	height:100px;
+	float: left; 
+	width: 20%;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-content{
+	height:100px;
+	float: left; 
+	width: 47%;
+}
+
+.item-content-text{
+	display: table; 
+	margin-left: auto; 
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+.item-QTY-text{
+	text-align:center;
+}
+
+.item-QTY{
+	height:100px;
+	float: left; 
+	width: 13%;
+}
+
+.item-price{
+	text-align:center;
+	height:100px;
+	float: left; 
+	width: 20%;
+}
+
+.pay-result{
+	width:410px;
+	height:500px;
+	float: right;
+}
+
+.result-table{
+	width:100%;
+    font-size: 20px;
+}
+
+td:nth-child(2){
+	text-align:right;
+	color:black;
+}
+
+.result-table-address{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.result-table-address2{
+    text-align: center;
+    font-size: 15px;
+}
+
+.result_button{
+	width: 80%;
+    height: 70px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.result-button-size{
+	width:100%;
+	height:100%;
+	font-size: 30px;
+}
+
+.modify-address{
+	width:100%;
+	border-bottom:solid 0.5px black;
+}
+
+.modify-address tr th{
+	text-align:center;
+	border-bottom: solid 1px gray;
+}
+
+.modify-address tr td{
+	text-align:center;
+}

@@ -1,0 +1,61 @@
+/* 메인 슬라이드 css */
+
+        * { box-sizing: border-box; }
+
+        body {
+          margin: 0px;}
+
+        .carousel {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .carousel-cell {
+          margin-right: 0px;
+          width: 100%;
+          height: 800px;
+          display: block;
+          font-size: 45px;
+          color: white;
+        }
+
+        /* 각 슬라이드의 배경 */
+        .cell-one {
+            background-color: rgba(255,255,255,0.5);
+            background: url(../../images/common/가을.gif);
+            background-position: center center;
+			background-repeat:  no-repeat;
+            background-size: cover;
+        }
+         
+        .cell-two {
+            background: url(../../images/common/버스.gif);
+            background-position: center center;
+			background-repeat:  no-repeat;
+            background-size: cover;
+        }
+        .cell-three {
+            background: url(../../images/common/초원.jpg);
+            background-position: center center;
+			background-repeat:  no-repeat;
+            background-size: cover;
+        }
+          
+          .black-shadow{
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0,0,0,0.3);
+          }
+          .slide-font{
+              position: absolute;
+              top:35%;
+              bottom: 0;
+              left:0;
+              right: 0;
+              height: 10px;
+              margin: 0 auto;
+              text-align: center;
+              font-family: 'Do Hyeon', sans-serif;
+              font-weight: 50;
+              text-shadow: 3px 3px 0 black;
+          }

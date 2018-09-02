@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+.bannerArea {
+	/* width: 1810px; */
+	height: 400px;
+	background-image: url(../../images/funding/fundingbanner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Yeon Sung', cursive;
+}
+
+.bannerArea2 {
+	/* width: 1810px; */
+	height: 400px;
+	background-image: url(../../images/funding/farmfarm.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Yeon Sung', cursive;
+}
+
+.bannerArea3 {
+	/* width: 1810px; */
+	height: 400px;
+	background-image: url(../../images/funding/food.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Yeon Sung', cursive;
+}
+
+.bannerImg {
+	width: 100%;
+	height: 100%;
+	margin-top: 60px;
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+	background-size: 100% 100%;
+}
+
+.bannerText {
+	position: absolute;
+	left: 30;
+	top: 18%;
+	width: 100%;
+}
+
+.textArea {
+	font-family: 'Yeon Sung';
+	font-size: 80px;
+	color: #ffffff;
+}

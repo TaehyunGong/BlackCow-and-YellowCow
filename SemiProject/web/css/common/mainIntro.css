@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.mainIntro{
+    width: 1300px;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 25px;
+    color: darkseagreen;
+}
+
+.mainMapS{
+	width: 600px;
+	height:400px;
+    display:inline-block;	
+    text-align:center;
+}
+.mainMap{
+	width: 600px;
+	height:400px;
+}
+
+
+.mainCommunity{
+	width: 600px;
+	height:560px;
+    display:inline-block;
+    float: right;
+    text-align: center;
+}
+
+.mainIntroTitle{
+	margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    text-align:center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom:20px;
+    font-family: 'Pacifico', cursive;
+    text-shadow:#999999 5px 5px 5px;
+    border-bottom: solid black 3px;
+}
+
+.CommunityTitle{
+	text-align:center;
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+    text-shadow:#999999 5px 5px 5px;
+    color: green;
+}
+
+.mapTitle{
+	text-align:center;
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+    text-shadow:#999999 5px 5px 5px;
+    color: green;
+}
+
+/** orderTable **/
+.board_list{font-size:12px;color:#777}
+.board_list thead tr th{height:30px;color:#fff;font-weight:bold;background:#6eb163;vertical-align:middle;text-align: center;}
+.board_list tbody tr td{padding:10px;text-align:center;line-height:18px;border-bottom:solid 1px #eee;vertical-align:middle}
+.board_list tbody tr .tLeft{text-align:left}
+.board_list tbody tr td a{color:#777}
+.board_list tbody .notice td{background:#f6f6f6}
+.board_list tbody tr:hover td{background:#fafafa}
+
+/** pageNavi **/
+.page_navi{margin-top:40px;font-size:0;text-align:center}
+.page_navi *{display:inline-block;vertical-align:middle}
+.page_navi > a{margin:0 4px;padding:0 5px;height:24px;font-size:12px;color:#333;line-height:23px;border:solid 1px #ccc}
+.page_navi span{margin:0 10px}
+.page_navi span > *{padding:6px;font-size:14px;color:#777}
+.page_navi span > strong{color:#555;font-weight:bold;text-decoration:underline}

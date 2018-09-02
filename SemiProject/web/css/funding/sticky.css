@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+
+#tabMenu {
+	width:100%;
+	overflow: hidden;
+	background-color: #f9f9f9;
+	text-align:center;
+	border: 1px solid #ededed;
+	
+}
+
+#tabMenu>button {
+	display: inline-block;
+	color: black;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	width: 175px;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#tabMenu button:hover {
+	border-bottom: 3px solid #60ea77;
+	color: #40ef5d;
+}
+
+#tabMenu button.active {
+	border-bottom: 3px solid #60ea77;
+
+}
+
+.content {
+	padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow:5px 3px 3px 2px #ededed;
+	
+}
+
+.sticky+.content {
+	padding-top: 60px;
+}
+
+.number{
+	color:green;
+	font-weight:bold;
+}
